@@ -7,7 +7,7 @@ pipeline:
   properties:
     ci:
       codebase:
-        connectorRef: pysampleconnector
+        connectorRef: py-sample-connector
         build: <+input>
   stages:
     - stage:
