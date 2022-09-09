@@ -1,13 +1,13 @@
 pipeline:
   name: CI-Python-Quickstart
   identifier: pythonhelloworld
-  projectIdentifier: CI-Quickstart-Python
+  projectIdentifier: <+project.name>
   orgIdentifier: default
   tags: {}
   properties:
     ci:
       codebase:
-        connectorRef: py-sample-connector
+        connectorRef: pysampleconnector
         build: <+input>
   stages:
     - stage:
