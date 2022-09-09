@@ -1,7 +1,7 @@
 pipeline:
   name: CI-Python-Quickstart
   identifier: pythonhelloworld
-  projectIdentifier: krishikasingh
+  projectIdentifier: CI-Quickstart-Python
   orgIdentifier: default
   tags: {}
   properties:
